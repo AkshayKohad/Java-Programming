@@ -19,6 +19,9 @@ public class NestedClass{
     public static void main(String args[]){
        Outer o = new Outer();
        o.outerDisplay();
-        
+    
+        // Other way to call inner class
+        Outer.Inner oi = new Outer().new Inner();
+        oi.innerDisplay();
     }
 }
