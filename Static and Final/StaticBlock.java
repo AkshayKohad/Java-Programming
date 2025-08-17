@@ -1,0 +1,20 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+
+class test{
+    static{
+        System.out.println("Block 1");
+    }
+    
+    static{
+        System.out.println("Block 2");
+    }
+}
+public class StaticBlock {
+    public static void main(String[] args) {
+        System.out.println("Main");
+        
+        test t = new test();
+    }
+}
